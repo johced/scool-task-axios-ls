@@ -6,7 +6,7 @@ import { DetailPage } from './components/Detailpage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/'>
           <div className='nav'>
