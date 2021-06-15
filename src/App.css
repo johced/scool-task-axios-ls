@@ -1,3 +1,147 @@
+.start {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  /* border: 1px solid black; */
+  padding-left: 40px;
+  background-color: darkred;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* .container div {
+  
+} */
+
+.hungry {
+  width: 100%;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.danger {
+  animation: alert 1.5s infinite;
+}
+
+@keyframes alert {
+  0% {
+    color: #000;
+  }
+  49% {
+    color: #000;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+.hungry ul {
+  padding: 0;
+  margin: 0;
+}
+
+.hungry ul li {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.hungry ul li h3 {
+  padding-top: 5px;
+}
+
+.hungry ul li:nth-child(even) {
+  background-color: lightgray;
+}
+
+.hungry ul li:nth-child(odd) {
+  background-color: gray;
+}
+
+ul li {
+  list-style-type: none;
+  width: 100%;
+}
+
+hr {
+  border-width: 0;
+  color: grey;
+  background-color: grey;
+  height: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-size: 0.8rem;
+  padding: 10px 23px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  transition: transform 550ms ease-in-out;
+}
+
+a:hover {
+  background-color: rgb(38, 38, 38);
+  transform: translateX(-3px);
+}
+
+.showmore:hover {
+  background-color: rgb(38, 38, 38);
+  transform: translateX(+3px);
+}
+
+.varningBtn {
+  background-color: darkred;
+  margin-bottom: 4px;
+}
+
+button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+  transition: 350ms ease-in-out;
+}
+
+button:disabled {
+  color: black;
+  background-color: darkgrey;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: green;
+}
+
+h3 {
+  color: darkred;
+}
+
+.detail {
+  width: 70%;
+  padding-left: 40px;
+}
+
+/* */
 .App {
   text-align: center;
 }
