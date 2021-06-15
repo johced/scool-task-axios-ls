@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/scool-task-axios-ls/static/css/main.c2947a1c.chunk.css",
+    "main.js": "/scool-task-axios-ls/static/js/main.abfa3eb6.chunk.js",
+    "main.js.map": "/scool-task-axios-ls/static/js/main.abfa3eb6.chunk.js.map",
+    "runtime-main.js": "/scool-task-axios-ls/static/js/runtime-main.c6a8fc54.js",
+    "runtime-main.js.map": "/scool-task-axios-ls/static/js/runtime-main.c6a8fc54.js.map",
+    "static/js/2.1303d3cb.chunk.js": "/scool-task-axios-ls/static/js/2.1303d3cb.chunk.js",
+    "static/js/2.1303d3cb.chunk.js.map": "/scool-task-axios-ls/static/js/2.1303d3cb.chunk.js.map",
+    "static/js/3.dc1e1fe7.chunk.js": "/scool-task-axios-ls/static/js/3.dc1e1fe7.chunk.js",
+    "static/js/3.dc1e1fe7.chunk.js.map": "/scool-task-axios-ls/static/js/3.dc1e1fe7.chunk.js.map",
+    "index.html": "/scool-task-axios-ls/index.html",
+    "static/css/main.c2947a1c.chunk.css.map": "/scool-task-axios-ls/static/css/main.c2947a1c.chunk.css.map",
+    "static/js/2.1303d3cb.chunk.js.LICENSE.txt": "/scool-task-axios-ls/static/js/2.1303d3cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6a8fc54.js",
+    "static/js/2.1303d3cb.chunk.js",
+    "static/css/main.c2947a1c.chunk.css",
+    "static/js/main.abfa3eb6.chunk.js"
+  ]
+}
